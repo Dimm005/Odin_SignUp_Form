@@ -38,27 +38,33 @@
             <div id="form">
                 <h2>Let's do this!</h2>
                 <form action="https://httpbin.org/post" method="post" id="sign_up_form">
-                    <ul>
-                        <li>
-                            <label for="first_name">FIRST NAME</label>
-                            <input type="text" name="first_name" id="first_name" minlength="3" maxlength="20">
-                            <label for="last_name">LAST NAME</label>
-                            <input type="text" name="last_name" id="last_name" minlength="3" maxlength="30">
-                        </li>
-                        <li>
-                            <label for="email">EMAIL</label>
-                            <input type="email" name="email" id="email">
-                            <label for="phone"></label>
-                            <input type="tel" name="phone" id="phone">
-                        </li>
-                        <li>
-                            <label for="pass_1">PASSWORD</label>
-                            <input type="password" name="pass_1" id="pass_1">
-                            <label for="pass_2">CONFIRM PASSWORD</label>
-                            <input type="password" name="pass_2" id="pass_2">
-                        </li>
-                    </ul>
-                </form>
+                                <div id="form_container">
+                                    <div class="input_element">
+                                        <label for="first_name">FIRST NAME</label>
+                                        <input type="text" name="first_name" id="first_name" minlength="3" maxlength="20">
+                                    </div>
+                                    <div class="input_element">
+                                        <label for="last_name">LAST NAME</label>
+                                        <input type="text" name="last_name" id="last_name" minlength="3" maxlength="30">
+                                    </div>
+                                    <div class="input_element">
+                                        <label for="email">EMAIL</label>
+                                        <input type="email" name="email" id="email">
+                                    </div>
+                                    <div class="input_element">
+                                        <label for="phone">PHONE NUMBER</label>
+                                        <input type="tel" name="phone" id="phone">
+                                    </div>
+                                    <div class="input_element">
+                                        <label for="pass_1">PASSWORD</label>
+                                        <input type="password" name="pass_1" id="pass_1">
+                                    </div>
+                                    <div class="input_element">
+                                        <label for="pass_2">CONFIRM PASSWORD</label>
+                                        <input type="password" name="pass_2" id="pass_2">
+                                    </div>
+                                </div>
+                    </form>
             </div>
             <div id="submit_section">
                 <button type="button" form="sign_up_form">Create account</button>
