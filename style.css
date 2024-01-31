@@ -92,4 +92,38 @@ body {
     background-color: #fff;
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#right_panel div {
+    font-family: Rubik, Arial, Helvetica, sans-serif;
+}
+
+#form_description {
+    padding: 15% 10%;
+    height: 38%;
+    background-color: #eee;
+    font-size: 1.2rem;
+    font-weight: 600;
+    letter-spacing: 0.04rem;
+    line-height: 1.5em;
+}
+
+#form {
+    height: 27%;
+    padding: 5% 10%;
+}
+
+#form ul {
+    list-style: none;
+}
+
+#form h2 {
+    font-size: 1.2rem;
+    letter-spacing: 0.04rem;
+    margin-bottom: 5%;
+}
+
+#submit_section {
+    height: 35%;
 }
