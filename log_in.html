@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign Up</title>
+    <title>Log In</title>
     <link rel="stylesheet" href="style.css">
     <script src="main.js"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rubik">
@@ -36,40 +36,40 @@
                 <p>You <em>know</em> you want to.</p>
             </div>
             <div id="form">
-                <h2>Let's do this!</h2>
+                <h2>Please, log in:</h2>
                 <form action="https://httpbin.org/post" method="post" id="sign_up_form">
                                 <div id="form_container">
-                                    <div class="input_element">
+                                    <!-- <div class="input_element">
                                         <label for="first_name">FIRST NAME</label>
                                         <input type="text" name="first_name" id="first_name" minlength="3" maxlength="20" required>
                                     </div>
                                     <div class="input_element">
                                         <label for="last_name">LAST NAME</label>
                                         <input type="text" name="last_name" id="last_name" minlength="3" maxlength="30" required>
-                                    </div>
+                                    </div> -->
                                     <div class="input_element">
                                         <label for="email">EMAIL</label>
                                         <input type="email" name="email" id="email" required>
                                     </div>
-                                    <div class="input_element">
+                                    <!-- <div class="input_element">
                                         <label for="phone">PHONE NUMBER</label>
                                         <input type="tel" name="phone" id="phone">
-                                    </div>
+                                    </div> -->
                                     <div class="input_element">
                                         <label for="pass_1">PASSWORD</label>
                                         <input type="password" class="error" name="pass_1" id="pass_1" required minlength="8" maxlength="20">
                                     </div>
-                                    <div class="input_element">
+                                    <!-- <div class="input_element">
                                         <label for="pass_2">CONFIRM PASSWORD</label>
                                         <input type="password" class="error" name="pass_2" id="pass_2" required minlength="8" maxlength="20">
-                                    </div>
-                                    <div id="not_match">*Passwords do not match</div>
+                                    </div> -->
+                                    <div id="not_match">*Password or email does not match</div>
                                 </div>
                     </form>
             </div>
             <div id="submit_section">
-                <button type="submit" form="sign_up_form" id="submit_button">Create account</button>
-                <p id="already">Already have an account?<a href="log_in.html" id="log_in">Log in</a></p>
+                <button type="submit" form="sign_up_form" id="submit_button">Log In</button>
+                <!-- <p id="already">Already have an account?<a href="log_in.html" id="log_in">Log in</a></p> -->
                 
             </div>
         </div>

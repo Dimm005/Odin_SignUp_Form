@@ -24,6 +24,7 @@ a:hover  {
 /* Body and main container style */
 body {
     background-color: #000;
+    min-height: 900px;
     height: 100vh;
     min-width: 1000px;
     width: 90vw;
