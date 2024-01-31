@@ -37,9 +37,13 @@ body {
 }
 
 /* Left panel (logo part) style */
+@font-face {
+    font-family: Norse-Bold;
+    src: url(Fonts/Norse-Bold.otf);
+}
 #left_panel {
     width: 45%;
-    background-image: url("Images/main_img.jpg");
+    background-image: url("Images/main_img_2.jpg");
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -51,22 +55,35 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
+    background-color: rgba(58, 58, 58, 0.5);
 }
 
 #logo {
     width: 15%;
+    height: 9rem;
 }
 
 #logo_image {
-    width: 100%;
+    /* width: 100%; */
+    height: 7.5rem;
+    margin: 0.75rem auto;
 }
 
 #logo_text p {
+    font-family: Norse-Bold;
     font-size: 6rem;
+    color: #fff;
 }
 
 #image_info {
     text-align: center;
+    color: #333;
+}
+
+#image_info a {
+    color: #333;
+    text-decoration: underline;
 }
 
 /* Right panel (sign up form) style */
