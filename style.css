@@ -25,6 +25,7 @@ a:hover  {
 body {
     background-color: #000;
     height: 100vh;
+    min-width: 1000px;
     width: 90vw;
 }
 
@@ -112,6 +113,8 @@ body {
 #form {
     height: 30%;
     padding: 5% 10%;
+    border-bottom: lightgray 2px solid;
+    box-shadow: lightgray 0 3px 5px;
 }
 
 #form h2 {
@@ -162,4 +165,29 @@ body {
 
 #submit_section {
     height: 32%;
+    padding: 5% 10%;
+}
+
+#submit_button {
+    background-color: #666;
+    width:40%;
+    height: 18%;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 600;
+    letter-spacing: 0.05rem;
+    border-radius: 7px;
+    box-shadow: lightgray 5px 5px 5px;
+}
+
+#submit_section p {
+    margin-top: 2rem;
+    font-weight: 600;
+}
+
+#submit_section a {
+    margin-left: 0.7rem;
+    font-size: 120%;
+    font-weight: bold;
+    color: #666;
 }
