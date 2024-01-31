@@ -145,6 +145,21 @@ body {
     margin: 0.05rem 0;
 }
 
+#form .error {
+    border: red 1px solid;
+}
+
+#form input:focus {
+    border: none;
+    outline: blue 1px solid;;
+    box-shadow: lightgray 5px 5px 5px;
+}
+
+#not_match {
+    color: red;
+    font-size: 0.8rem;
+}
+
 #submit_section {
     height: 32%;
 }
