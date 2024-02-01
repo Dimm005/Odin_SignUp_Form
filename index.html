@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign Up</title>
     <link rel="stylesheet" href="style.css">
-    <script src="main.js"></script>
+
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rubik">
     <link rel="icon" sizes="180x180" href="apple-touch-icon.png">
     <!-- <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
@@ -40,15 +40,15 @@
                 <form action="https://httpbin.org/post" method="post" id="sign_up_form">
                                 <div id="form_container">
                                     <div class="input_element">
-                                        <label for="first_name">FIRST NAME</label>
+                                        <label for="first_name">FIRST NAME*</label>
                                         <input type="text" name="first_name" id="first_name" minlength="3" maxlength="20" required>
                                     </div>
                                     <div class="input_element">
-                                        <label for="last_name">LAST NAME</label>
+                                        <label for="last_name">LAST NAME*</label>
                                         <input type="text" name="last_name" id="last_name" minlength="3" maxlength="30" required>
                                     </div>
                                     <div class="input_element">
-                                        <label for="email">EMAIL</label>
+                                        <label for="email">EMAIL*</label>
                                         <input type="email" name="email" id="email" required>
                                     </div>
                                     <div class="input_element">
@@ -56,12 +56,12 @@
                                         <input type="tel" name="phone" id="phone">
                                     </div>
                                     <div class="input_element">
-                                        <label for="pass_1">PASSWORD</label>
-                                        <input type="password" class="error" name="pass_1" id="pass_1" required minlength="8" maxlength="20">
+                                        <label for="pass_1">PASSWORD*</label>
+                                        <input type="password" class="password error" name="pass_1" id="pass_1" required minlength="8" maxlength="20">
                                     </div>
                                     <div class="input_element">
-                                        <label for="pass_2">CONFIRM PASSWORD</label>
-                                        <input type="password" class="error" name="pass_2" id="pass_2" required minlength="8" maxlength="20">
+                                        <label for="pass_2">CONFIRM PASSWORD*</label>
+                                        <input type="password" class="password error" name="pass_2" id="pass_2" required minlength="8" maxlength="20">
                                     </div>
                                     <div id="not_match">*Passwords do not match</div>
                                 </div>
@@ -75,6 +75,7 @@
         </div>
     </div>
 </body>
+<script src="main.js"></script>
 </html>
 
   
